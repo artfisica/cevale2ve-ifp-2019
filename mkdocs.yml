@@ -1,4 +1,5 @@
-site_name: ATLAS Open Data hackathon 2019
+site_name: ATLAS Open Data Guide 2019
+repo_url: 'https://github.com/veritasalice/ATLASOpenDataGuide'
 nav:
     - Home: index.md
     - Datasets: datasets.md
@@ -6,5 +7,23 @@ nav:
     - C++ notes: C++/times.md
     - Python framework: Python/python.md
     - Virtual Machines: vm/index.md
+    - Documentation: document.md
     - GitBook: GitBook/SUMMARY.md
-theme: readthedocs
+theme:
+  name: null
+  custom_dir: 'mkdocs-material/material'
+  language: en
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: "images/outline_80_white.png"
+  feature:
+    tabs: false
+  # 404 page
+  static_templates:
+    - 404.html
+  favicon: 'assets/images/favicon.ico'
+  search_index_only: true

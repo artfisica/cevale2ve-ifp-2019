@@ -3,6 +3,8 @@
 ## GitLab repository
 * [atlas-outreach-cpp-framework-13tev](https://gitlab.cern.ch/lserkin/atlas-outreach-cpp-framework-13tev)
 
+* ```git clone https://gitlab.cern.ch/lserkin/atlas-outreach-cpp-framework-13tev.git ```
+
 ## About
 This is the C++ analysis code that may be used to analyse the data of the ATLAS published dataset.
 
@@ -54,8 +56,8 @@ or
 * ```source clean.sh```
 
 ## Plotting
-The plotting code is located in the **Plotting** folder. Compile the plotting code with:
-make
+The plotting code is located in the **Plotting** folder.
+* Compile the plotting code with the command: ```make```
 
 - Run the code with:
 ```
@@ -63,9 +65,12 @@ make
 ```
 
 Here you have to choose
-1.) which analysis you will run
-and
-2.) where is the output of the analysis code you produced
+* 1.) which analysis you will run
+* 2.) where is the output of the analysis code you produced
+
+**Examples**
+
+```./plot ZBosonAnalysis ../Analysis/ZBosonAnalysis/OutputDir_ZBosonAnalysis```
 
 - The plots are saved inside the directory "**histograms**", don't forget to rename in case you run over several analyses
 
@@ -73,12 +78,12 @@ and
 
 - Do you want to add a new plot? just add the name of it in this file (of course it has to exist in the output from the analysis code)
 
-- In case you changed the *Plotting* code, clean first: make clean; make
+- In case you changed the ```Plotting``` code, clean first: ```make clean; make```
 
-- Auxiliary: *Files.txt* contains the name, cross-section, sum of weights and efficiency for each of the MC samples. DO NOT CHANGE!
+- Auxiliary: ```Files.txt``` contains the name, cross-section, sum of weights and efficiency for each of the MC samples. **DO NOT CHANGE**
 
 ## How to add a new variable and plot it
-1. Add in the header (*NNAnalysis.h*) the new histogram:
+1. Add in the header (```NNAnalysis.h```) the new histogram:
 ```
 TH1F *h_new = 0;
 ```

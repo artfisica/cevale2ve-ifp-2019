@@ -5,7 +5,7 @@ This is an analysis code that may be used to analyse the data of the ATLAS publi
 
 ## GitLab repository
 * [ATLASDatasetTools13](https://gitlab.cern.ch/meevans/ATLASDatasetTools13)
-
+* ```git clone https://gitlab.cern.ch/meevans/ATLASDatasetTools13.git```
 ## General Usage
 ### Analysis
 The files in the root directory of the installation are the various run scripts. Configuration files can be found in the *Configurations* folder.
