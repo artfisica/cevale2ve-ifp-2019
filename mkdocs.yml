@@ -1,0 +1,10 @@
+site_name: ATLAS Open Data hackathon 2019
+nav:
+    - Home: index.md
+    - Datasets: datasets.md
+    - C++ framework: C++/cpp.md
+    - C++ notes: C++/times.md
+    - Python framework: Python/python.md
+    - Virtual Machines: vm/index.md
+    - GitBook: GitBook/SUMMARY.md
+theme: readthedocs
