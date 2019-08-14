@@ -8,7 +8,8 @@ cd ATLASOpenDataGuide
 mkdocs serve
 ```
 To put it in App, you need:
-'''
+
+```
 mkdocs build
-'''
+```
 
