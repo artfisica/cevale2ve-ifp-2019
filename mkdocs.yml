@@ -27,7 +27,7 @@ nav:
       - Analysis examples: 'notebooks/analysis-examples.md'
       - Framework interface: 'notebooks/framework-interface.md'
     - Virtual Machines: 'vm/index.md'
-    - Documentation: 'documentation/document.md'
+    - How to contribute to this documentation?: 'documentation/document.md'
 
 theme:
   name: null
