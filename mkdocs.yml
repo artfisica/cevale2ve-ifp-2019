@@ -1,14 +1,34 @@
 site_name: ATLAS Open Data Guide 2019
 repo_url: 'https://github.com/veritasalice/ATLASOpenDataGuide'
 nav:
-    - Home: index.md
-    - Datasets: datasets.md
-    - C++ framework: C++/cpp.md
-    - C++ notes: C++/times.md
-    - Python framework: Python/python.md
-    - Virtual Machines: vm/index.md
-    - Documentation: document.md
-    - GitBook: GitBook/SUMMARY.md
+    - Home: 'index.md'
+    - About ATLAS experiment:
+      - ATLAS experiment: 'atlas/experiment.md'
+      - ATLAS events: 'atlas/atlas_events.md'
+      - Higgs boson: 'atlas/the-higgs-boson.md'
+      - ATLAS glossary: 'atlas/GLOSSARY.md'
+      - Particle physics masterclasses: 'atlas/particle-physics-masterclasses.md'
+    - Datasets:
+      - Data and Simulated Data: 'datasets/data-and-simulated-data.md'
+      - 8 TeV dataset: 'datasets/dataset8.md'
+      - 13 TeV dataset: 'datasets/dataset13.md'
+    - Data Visualization:
+      - Data visualization: 'visualization/index.md'
+      - Finding the Higgs: 'visualization/find_the_higgs_2.md'
+      - Histogram analyser 1: 'visualization/histogram-analyser-1.md'
+      - Application 1: 'visualization/app1.md'
+      - Histogram analyser 2: 'visualization/histogram-analyser-2.md'
+      - Application 2: 'visualization/app2.md'
+      - Separate signals: 'seperate_signals.md'
+    - Frameworks:
+      - C++ framework: 'frameworks/cpp.md'
+      - Python framework: 'frameworks/python.md'
+    - Notebooks:
+      - Analysis examples: 'notebooks/analysis-examples.md'
+      - Framework interface: 'notebooks/framework-interface.md'
+    - Virtual Machines: 'vm/index.md'
+    - Documentation: 'documentation/document.md'
+
 theme:
   name: null
   custom_dir: 'mkdocs-material/material'
@@ -21,7 +41,7 @@ theme:
     code: Roboto Mono
   logo: "images/outline_80_white.png"
   feature:
-    tabs: false
+    tabs: true
   # 404 page
   static_templates:
     - 404.html
