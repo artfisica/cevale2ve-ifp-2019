@@ -3,7 +3,7 @@
 [**MkDocs**](https://www.mkdocs.org) is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation.
 Documentation source files are written in **Markdown**, and configured with a single YAML configuration file.
 
-# Mkdocs installation
+## Mkdocs installation
 
 * **Prerequisite: Python and Pip**
 
@@ -63,7 +63,7 @@ mkdocs, version 1.0.4
 $ mkdocs --version
 mkdocs, version 0.15.3
 ```
-# Getting started to edit
+## Getting started to edit
 
 * Clone this documentation to your device by git
 
@@ -103,7 +103,7 @@ Use the editor you like to edit the files in `docs` and your changes will be dis
 
 
 
-# Using the Git to commit your changes
+## Using the Git to commit your changes
 
 By far, the most widely used modern version control system in the world today is Git.
 In Git, every developer's working copy of the code is also a repository that can contain the full history of all changes.
