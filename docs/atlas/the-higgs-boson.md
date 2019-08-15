@@ -34,7 +34,7 @@ Quantum chromodynamics \(QCD\) and Electroweak \(EW\) models are used to predict
 
 ## Higgs decay
 
-According to the Standard Model, the Higgs boson can decay into pairs of fermions or bosons. 
+According to the Standard Model, the Higgs boson can decay into pairs of fermions or bosons.
 
 The Higgs boson mass is not predicted by the Standard Model, but once measured the production cross sections and branching ratios can be precisely calculated.
 
@@ -69,4 +69,3 @@ A large fraction of the [leptonic](https://en.wikipedia.org/wiki/Lepton) decays 
 The decay to pairs of electrons, muons and taus have a BR of about 10% of the total.
 
 In fact, the tau [life time](https://en.wikipedia.org/wiki/Particle_decay) is very short, 3x10$$^{-13}$$s, so it can be reconstructed only from its decay products. The efficiency of reconstructing taus is much lower than that of electrons and muons. So essentially, focusing on decays into electrons and muons, we are chasing just 6% of all the possible Higgs produced in the [LHC](https://en.wikipedia.org/wiki/Large_Hadron_Collider).
-

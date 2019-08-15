@@ -1,5 +1,6 @@
 site_name: ATLAS Open Data Guide 2019
 repo_url: 'https://github.com/veritasalice/ATLASOpenDataGuide'
+# Contents
 nav:
     - Home: 'index.md'
     - About ATLAS experiment:
@@ -19,7 +20,7 @@ nav:
       - Application 1: 'visualization/app1.md'
       - Histogram analyser 2: 'visualization/histogram-analyser-2.md'
       - Application 2: 'visualization/app2.md'
-      - Separate signals: 'seperate_signals.md'
+      - Separate signals: 'separate_signals.md'
     - Frameworks:
       - C++ framework: 'frameworks/cpp.md'
       - Python framework: 'frameworks/python.md'
@@ -29,6 +30,7 @@ nav:
     - Virtual Machines: 'vm/index.md'
     - How to contribute to this documentation?: 'documentation/document.md'
 
+# Theme
 theme:
   name: null
   custom_dir: 'material'
@@ -42,8 +44,13 @@ theme:
   logo: "images/outline_80_white.png"
   feature:
     tabs: true
-  # 404 page
   static_templates:
     - 404.html
   favicon: 'assets/images/favicon.ico'
   search_index_only: true
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true

@@ -1,9 +1,6 @@
 # ATLAS events
 
-<CENTER>
-<img src="./pictures/zpileup_alltracks.png" width="275" />
-</CENTER>
-
+![](pictures/zpileup_alltracks.png)
 
 Beams of [protons](https://en.wikipedia.org/wiki/Proton) are accelerated around the [Large Hadron Collider (LHC)](http://home.cern/topics/large-hadron-collider) and are brought to collision at the centre of the [ATLAS](http://home.cern/about/experiments/atlas) detector.
 The collisions produce debris in the form of new particles which fly out in all directions.
@@ -12,7 +9,7 @@ Over a billion particle interactions take place in the ATLAS detector every seco
 The protons within the two beams are grouped in bunches which are squeezed down in size to increase the chances of a collision.
 In the released data, the bunches crossed every 50 ns.  There were about 30 collisions on average per **bunch-crossing**.  
 
-An **event** is the data resulting from a particular bunch-crossing. 
+An **event** is the data resulting from a particular bunch-crossing.
 
 **Pile-up** is defined as the average number of particle interactions per bunch-crossing.
 It is directly correlated with the instantaneous luminosity.  
