@@ -1,7 +1,4 @@
-## About
-This is an analysis code that may be used to analyse the data of the ATLAS published dataset.
-
-* **Why do you need a virtual machine?**
+## **Why do you need a virtual machine?**
 
 Virtualization allows you to create an operating system in the operating system and test programs without installing them on the host machine. Also virtualization allows you to do penetration testing.
 
@@ -24,8 +21,7 @@ Collaboration Software Products **-** Top To Look For:
 
 Also with VirtualBox, you can use Windows, Linux, Mac OS X, Solaris to run their bundles on one computer. Each virtual machine is called a guest, and your main computer (the OS installed on it) is called a host. The point is that you can run several guest systems in the host’s operating system (direct inside it).
 
-## VM with ROOT and Jupyter
-* **VirtualBox installation**
+## **VirtualBox installation**
 
 Follow the instructions below to install the VM on your computer:
 
@@ -69,11 +65,13 @@ Follow the instructions below to install the VM on your computer:
 
 In principle, in the settings of VirtualBox there is nothing more to change.
 
-* **How to install an operating system in your virtual machine?**
+## **How to add an operating system with ROOT in your VirtualBox?**
 
-First, download the ready operating system (.ova file with ROOT and Jupiter inside) from [** *`this link`* **](http://universidad.ch/CEVALE2VE/IFP-2019/student-material/ATLAS-OpenData-VM-ROOT6-Xubuntu-15.04_light-sever.ova)!
+**Download the ready operating system(.ova file with ROOT preinstalled)**
+
+[![download](images/Download-Now-Button.png)](http://opendata.atlas.cern/release/vm/ATLAS-OpenData-VM-ROOT6-Xubuntu-15.04_light-sever.ova)
 _ _ _
-If you want to install your operating system from scratch, then see how to do it in [***this section***](appendix.md).
+N.B. If you want to install your operating system from scratch, then see how to do it in [***this section***](appendix.md).
 _ _ _
 
 — After you have downloaded the ready file, start the VirtualBox. Go to the menu ***"File"*** **->** ***“Import Appliance...”*** (or perform the same function with the combination of buttons: **"Ctrl" + "I"**).
