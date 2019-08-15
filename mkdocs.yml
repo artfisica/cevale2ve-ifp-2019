@@ -48,9 +48,3 @@ theme:
     - 404.html
   favicon: 'assets/images/favicon.ico'
   search_index_only: true
-
-# Plugins
-plugins:
-  - search
-  - minify:
-      minify_html: true
