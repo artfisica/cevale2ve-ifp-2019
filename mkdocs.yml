@@ -48,3 +48,4 @@ theme:
     - 404.html
   favicon: 'assets/images/favicon.ico'
   search_index_only: true
+use_directory_urls: false
