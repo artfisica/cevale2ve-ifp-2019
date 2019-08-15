@@ -20,7 +20,7 @@ nav:
       - Application 1: 'visualization/app1.md'
       - Histogram analyser 2: 'visualization/histogram-analyser-2.md'
       - Application 2: 'visualization/app2.md'
-      - Separate signals: 'separate_signals.md'
+      - Separate signals: 'visualization/separate_signals.md'
     - Frameworks:
       - C++ framework for 13 TeV dataset: 'frameworks/cpp.md'
       - Python framework for 8 TeV dataset: 'frameworks/python.md'
