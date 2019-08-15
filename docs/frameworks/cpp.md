@@ -1,11 +1,6 @@
 # ATLAS Open Data C++ framework for 13 TeV analyses
 
-## GitLab repository
-* [atlas-outreach-cpp-framework-13tev](https://gitlab.cern.ch/lserkin/atlas-outreach-cpp-framework-13tev)
-
-* ```git clone https://gitlab.cern.ch/lserkin/atlas-outreach-cpp-framework-13tev.git ```
-
-## About
+## **About**
 This is the C++ analysis code that may be used to analyse the data of the ATLAS published dataset.
 
 More information in the 8 TeV ATLAS Open Data PUB notes:
@@ -15,16 +10,21 @@ More information in the 8 TeV ATLAS Open Data PUB notes:
 
 This code is made of two parts of codes: analysis codes and plotting codes.
 
-## Setup
+## **GitLab repository**
+* [atlas-outreach-cpp-framework-13tev](https://gitlab.cern.ch/lserkin/atlas-outreach-cpp-framework-13tev)
+
+* ```git clone https://gitlab.cern.ch/lserkin/atlas-outreach-cpp-framework-13tev.git ```
+
+## **Setup**
 After checking out the repository, you need to setup ROOT framework and gcc compiler. The current version was compiled using gcc v6.20 and root v6.10.04
 
-## Samples
+## **Samples**
 For now, the analysis code can be run using samples located in eos:
 ```
 /eos/project/a/atlas-outreach/projects/open-data/OpenDataTuples/
 ```
 
-## Analysis Code
+## **Analysis Code**
 The analysis code is located in the **Analysis** folder. It will be used to write out histograms for the individual input files which will be used for plotting purposes later.
 
 There are currently 7 available analyses stored as "```NNAnalysis```", where ```NN = WBoson, ZBoson, TTbar, WZDiBoson, ZZDiBoson, HWW, ZPrime```
@@ -55,7 +55,7 @@ To clean all shared libraries:
 or
 * ```source clean.sh```
 
-## Plotting
+## **Plotting**
 The plotting code is located in the **Plotting** folder.
 * Compile the plotting code with the command: ```make```
 
@@ -82,7 +82,7 @@ Here you have to choose
 
 - Auxiliary: ```Files.txt``` contains the name, cross-section, sum of weights and efficiency for each of the MC samples. **DO NOT CHANGE**
 
-## How to add a new variable and plot it
+## **How to add a new variable and plot it**
 1. Add in the header (```NNAnalysis.h```) the new histogram:
 ```
 TH1F *h_new = 0;

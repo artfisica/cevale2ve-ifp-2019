@@ -1,12 +1,12 @@
 # ATLAS Open Data Python framework for 13 TeV analyses
 
-## About
+## **About**
 This is an analysis code that may be used to analyse the data of the ATLAS published dataset.
 
-## GitLab repository
+## **GitLab repository**
 * [ATLASDatasetTools13](https://gitlab.cern.ch/meevans/ATLASDatasetTools13)
 * ```git clone https://gitlab.cern.ch/meevans/ATLASDatasetTools13.git```
-## General Usage
+## **General Usage**
 ### Analysis
 The files in the root directory of the installation are the various run scripts. Configuration files can be found in the *Configurations* folder.
 
@@ -98,7 +98,7 @@ Currently available options are:
 >     log_y    : bool  - if True is set as the bool the main depiction will be drawn in logarithmic scale
 >     y_margin : float - sets the fraction of whitespace above the largest contribution in the plot. Default value is 0.1.
 
-# Definition of Paintables and Depictions
+## **Definition of Paintables and Depictions**
 Each Plot consists of several _depictions_ of _paintables_.
 A depiction is a certain standard type of visualising information. Availabe depictions include simple plots, ratios and agreement plots.
 A paintable is a histogram or stack with added information such as colors and which processes contribute to said histogram.
@@ -158,9 +158,7 @@ Agreement type plots are typically used to evaluate the agreement between two pa
 
 The order of the depictions is determined in line 2 of the code example above.
 
-## In Depth Information
-
-### Analysis Code
+### In Depth Information: Analysis Code
 The analysis code is located in the _Analysis_ folder.
 It will be used to write out histograms for the individual input files which
 will be used for plotting purposes later.

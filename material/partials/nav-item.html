@@ -2,9 +2,12 @@
   This file was automatically generated - do not edit
 -#}
 {% set class = "md-nav__item" %}
+
 {% if nav_item.active %}
   {% set class = "md-nav__item md-nav__item--active" %}
 {% endif %}
+
+
 {% if nav_item.children %}
   <li class="{{ class }} md-nav__item--nested">
     {% if nav_item.active %}
@@ -29,6 +32,7 @@
       </ul>
     </nav>
   </li>
+
 {% elif nav_item == page %}
   <li class="{{ class }}">
     {% set toc_ = page.toc %}
@@ -48,6 +52,7 @@
       {% include "partials/toc.html" %}
     {% endif %}
   </li>
+
 {% else %}
   <li class="{{ class }}">
     <a href="{{ nav_item.url | url }}" title="{{ nav_item.title | striptags }}" class="md-nav__link">

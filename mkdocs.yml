@@ -22,8 +22,8 @@ nav:
       - Application 2: 'visualization/app2.md'
       - Separate signals: 'separate_signals.md'
     - Frameworks:
-      - C++ framework: 'frameworks/cpp.md'
-      - Python framework: 'frameworks/python.md'
+      - C++ framework for 13 TeV dataset: 'frameworks/cpp.md'
+      - Python framework for 8 TeV dataset: 'frameworks/python.md'
     - Notebooks:
       - Analysis examples: 'notebooks/analysis-examples.md'
       - Framework interface: 'notebooks/framework-interface.md'
