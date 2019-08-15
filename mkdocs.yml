@@ -31,7 +31,7 @@ nav:
 
 theme:
   name: null
-  custom_dir: 'mkdocs-material/material'
+  custom_dir: 'material'
   language: en
   palette:
     primary: indigo
