@@ -1,4 +1,6 @@
-# Welcome to the ATLAS Open Data Hackathon
+![path](images/detector_background.png)
+
+# **Welcome to the ATLAS Open Data Hackathon**
 
 This is a documentation to run the resources to-be-released at the [ATLAS Open Data](http://opendata.atlas.cern) project!
 
@@ -54,10 +56,7 @@ This is a documentation to run the resources to-be-released at the [ATLAS Open D
 
 * More details about the samples, production status can be seen [here](https://docs.google.com/spreadsheets/d/1zPlEUikKfXJhqD_LohXQ5x85n9gPPV69tUlngGt2gWo/edit#gid=4912678).
 
-# Analysis Examples frameworks
-Explore several of the collections using the Analysis frameworks:
 
-## Notes
 
 ### DOI and CERN Open Data access
 Datasets have/will have DOI's that allow their citation.
